@@ -5,7 +5,11 @@ import {
   StyleSheet,
   Text,
   View,
+  Entity,
 } from 'react-360';
+import landing_page from './landing_page'
+
+
 
 export default class movies_react_360 extends React.Component {
   render() {
@@ -25,8 +29,8 @@ export default class movies_react_360 extends React.Component {
 const styles = StyleSheet.create({
   panel: {
     // Fill the entire surface
-    width: 1000,
-    height: 600,
+    width: 600,
+    height: 300,
     backgroundColor: 'rgba(255, 255, 255, 0.4)',
     justifyContent: 'center',
     alignItems: 'center',
@@ -43,3 +47,4 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('movies_react_360', () => movies_react_360);
+AppRegistry.registerComponent('landing_page', () => landing_page);

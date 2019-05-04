@@ -1,7 +1,8 @@
 const movies = {
     1: {
         title: 'Avengers',
-        description: 'Awesome movie about a bunch of superheroes.'
+        description: 'Awesome movie about a bunch of superheroes.',
+        posterUrl: 'avengers.jpg'
     },
     2: {
         title: 'Shazam',
